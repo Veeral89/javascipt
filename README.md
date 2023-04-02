@@ -2,15 +2,15 @@
 document.getElementById('items');
 
 const newItem = document.createElement('li');
-newItem.textContent = 'New Item'; // Set the text content
+newItem.textContent = 'New Item'; 
 
-list.appendChild(newItem);// Get the list element
+list.appendChild(newItem);
 
 const list = document.getElementsByClassName('list-group')[0];
 
 
 const newItem = document.createElement('li');
-newItem.textContent = 'New Item'; // Set the text content
+newItem.textContent = 'New Item'; 
 
 
 list.appendChild(newItem);
